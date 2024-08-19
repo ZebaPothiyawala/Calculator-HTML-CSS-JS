@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #ecf0f3;
+}
+.calculator {
+    padding: 10px;
+    background: mistyrose;
+    border-radius: 8px;
+    box-shadow: 13px 13px 20px #cbced1,
+        -13px -13px 20px #ffffff;
+    max-width: 370px;
+}
+strong {
+    font-size: 20px;
+    color: #000000;
+    padding-left: 0.4rem;
+}
+.row button {
+    width: 60px;
+    background: #b6c4ea;
+    color: black;
+    height: 45px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 7px;
+    transition: .1s;
+    box-shadow: 3px 3px 5px #f59e9ec5,
+        -2px -2px 5px hsla(163, 77%, 80%, 0.969);
+}
+.row button:hover {
+    box-shadow: inset 3px 3px 5px rgba(214, 255, 132, 0.692),
+        inset -2px -2px 5px #f697fd;
+    background: #000000;
+    color: white;
+}
+.cal {
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+    color: whitesmoke;
+    outline: none;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    margin-bottom: -700px;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+#result {
+    margin-bottom: .5em;
+    width: 93%;
+    height: 50px;
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    padding-top: .8em;
+    align-items: center;
+    text-align: right;
+    padding-right: .7em;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
+    box-shadow: inset 3px 3px 5px #e7df9b,
+        inset -3px -3px 6px #fffcfc;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+#equal {
+    background: #054e39;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px hsl(248, 70%, 80%),
+        inset -5px -5px 8px hsl(248, 70%, 80%);
+}
+button.spanbutton {
+    width: 135px;
+}
+#equal:hover {
+    box-shadow: inset 5px 5px 8px #00ace6,
+        inset -5px -5px 8px #00ace6;
+    background: black;
+}
+#clear {
+    background: #ec3228;
+    color: #fff;
+}
+#clear:hover {
+    box-shadow: inset 5px 5px 8px #2eb82e,
+        inset -5px -5px 8px #33cc33;
+}
+#del {
+    background: #6633ff;
+    color: #fff;
+}
+#del:hover {
+    box-shadow: inset 5px 5px 8px #e60073,
+        inset -5px -5px 8px #ff3399;
+}
